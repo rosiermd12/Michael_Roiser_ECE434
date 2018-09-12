@@ -1,4 +1,4 @@
-#!/user/bin/env python
+#!/usr/bin/env python
 
 #Author: Michael Rosier
 #Date: 9/7/2018

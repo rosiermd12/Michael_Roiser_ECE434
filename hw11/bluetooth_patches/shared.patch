@@ -1,0 +1,10 @@
+--- shared.cpp	2018-11-14 20:10:52.336147136 +0000
++++ shared_new.cpp	2018-11-14 20:10:36.228147134 +0000
+@@ -23,6 +23,7 @@
+ #include <fcntl.h>
+ #include <signal.h>
+ #include <syslog.h>
++#include <unistd.h>
+ #include <sys/socket.h>
+ 
+ static volatile sig_atomic_t __active = false;

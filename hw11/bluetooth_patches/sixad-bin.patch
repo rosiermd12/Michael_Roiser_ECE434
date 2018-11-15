@@ -1,0 +1,10 @@
+--- sixad-bin.cpp	2018-11-14 20:09:56.816147130 +0000
++++ sixad-bin_new.cpp	2018-11-14 20:08:55.432147122 +0000
+@@ -22,6 +22,7 @@
+ #include <signal.h>
+ #include <stdlib.h>
+ #include <syslog.h>
++#include <unistd.h>
+ 
+ #if 0
+ #include <sys/ioctl.h>

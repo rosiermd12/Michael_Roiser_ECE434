@@ -1,0 +1,10 @@
+--- uinput.cpp	2018-11-14 20:18:53.480147194 +0000
++++ uinput_new.cpp	2018-11-14 20:18:31.184147191 +0000
+@@ -22,6 +22,7 @@
+ #include <fcntl.h>
+ #include <string.h>
+ #include <syslog.h>
++#include <unistd.h>
+ 
+ struct uinput_fd *uinput_open(int DEV_TYPE, const char *mac, struct device_settings settings)
+ {

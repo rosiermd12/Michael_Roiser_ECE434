@@ -1,0 +1,10 @@
+--- sixad-sixaxis.cpp	2018-11-14 20:15:07.892147167 +0000
++++ sixad-sixaxis_new.cpp	2018-11-14 20:14:41.104147163 +0000
+@@ -27,6 +27,7 @@
+ #include <syslog.h>
+ #include <time.h>
+ #include <sys/socket.h>
++#include <unistd.h>
+ 
+ int csk = 0;
+ int isk = 1;

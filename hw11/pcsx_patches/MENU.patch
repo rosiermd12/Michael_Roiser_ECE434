@@ -1,0 +1,10 @@
+--- pixbox.patch	2018-11-15 11:16:17.992280312 +0000
++++ pixbox_new.patch	2018-11-15 11:18:01.460280361 +0000
+@@ -94,7 +94,6 @@
+  
+ +if(getenv("NO_MENU"))
+ +{
+-+  emu_core_ask_exit();
+ +return;
+ +}
+ +

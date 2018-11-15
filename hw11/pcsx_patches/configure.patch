@@ -1,0 +1,25 @@
+--- configure	2018-11-15 11:16:17.708280312 +0000
++++ configure_new	2018-11-15 11:18:01.460280361 +0000
+@@ -44,18 +44,18 @@
+ have_armv5=""
+ have_armv6=""
+ have_armv7=""
+-have_arm_neon=""
++have_arm_neon="yes"
+ have_tslib=""
+ have_gles=""
+ enable_dynarec="yes"
+-need_sdl="no"
+-need_xlib="no"
++need_sdl="yes"
++need_xlib="yes"
+ need_libpicofe="yes"
+ need_warm="no"
+ CFLAGS_GLES=""
+ LDLIBS_GLES=""
+ # these are for known platforms
+-optimize_cortexa8="no"
++optimize_cortexa8="yes"
+ optimize_arm926ej="no"
+ 
+ # hardcoded stuff

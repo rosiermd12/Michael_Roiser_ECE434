@@ -1,0 +1,10 @@
+--- textfile.cpp	2018-11-14 20:18:02.044147187 +0000
++++ textfile_new.cpp	2018-11-14 20:17:50.352147186 +0000
+@@ -21,6 +21,7 @@
+ #include <ctype.h>
+ #include <fcntl.h>
+ #include <string.h>
++#include <unistd.h>
+ #include <sys/file.h>
+ #include <sys/mman.h>
+ #include <sys/stat.h>

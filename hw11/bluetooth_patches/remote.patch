@@ -1,0 +1,10 @@
+--- remote.cpp	2018-11-14 20:08:12.416147117 +0000
++++ remote_new.cpp	2018-11-14 20:07:38.564147113 +0000
+@@ -21,6 +21,7 @@
+ 
+ #include <syslog.h>
+ #include <sys/socket.h>
++#include <unistd.h>
+ 
+ int b1, b2, b3;
+ int last_jb1 = 0;

@@ -1,0 +1,6 @@
+[Unit]
+Description=runs pcsx and all the add on to have a ps1 emulator console
+After=syslog.target network.target
+[Service]
+Type=simple
+ExecStart=/usr/bin/run.sh

@@ -1,0 +1,10 @@
+--- sixaxis.cpp	2018-11-14 20:16:48.784147179 +0000
++++ sixaxis_new.cpp	2018-11-14 20:16:37.452147177 +0000
+@@ -21,6 +21,7 @@
+ 
+ #include <syslog.h>
+ #include <sys/socket.h>
++#include <unistd.h>
+ 
+ double dt, rc_dd, alpha_dd, rc_d, alpha_d, rc, alpha;
+ 
